@@ -1,0 +1,7 @@
+.listOfCats {
+    margin-top: 50px;
+    width: 50%;
+    background: white;
+    display: flex;
+    padding: 20px;
+}

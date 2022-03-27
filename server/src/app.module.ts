@@ -9,6 +9,7 @@ import {SequelizeModule} from "@nestjs/sequelize";
 import {ConfigModule} from "@nestjs/config";
 import {Cats} from "./cats/cats.model";
 import {Goods} from "./goods/goods.model";
+import {Users} from "./users/users.model";
 
 @Module({
     imports: [
@@ -27,7 +28,7 @@ import {Goods} from "./goods/goods.model";
             password: process.env.POSTGRES_PASS,
             database: process.env.POSTGRES_DB,
             models: [
-                Cats, Goods
+                Cats, Goods, Users
             ],
             autoLoadModels: true
         })

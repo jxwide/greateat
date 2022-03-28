@@ -43,5 +43,34 @@ code {
     font-weight: bold;
 }
 
+.sect {
+    background: white;
+    padding: 20px;
+    width: 50%;
+    margin-top: 10px;
+}
+
+input {
+    padding: 12px 22px;
+    border: none;
+    background: #F2F2F2;
+    outline: none;
+}
+
+button {
+    padding: 12px 22px;
+    border: none;
+    background: #F2F2F2;
+    outline: none;
+    margin-top: 10px;
+
+    transition: .3s;
+}
+
+button:hover {
+    background: #13C400;
+    color: white;
+}
+
 
 

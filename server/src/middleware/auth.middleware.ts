@@ -14,6 +14,7 @@ export class AuthMiddleware implements NestMiddleware {
             try {
                 let verify = this.jwtService.verify(token)
                 res.cookie('user', verify)
+                //req.user = verify
                 next()
             } catch (e) {
                 res.redirect('')

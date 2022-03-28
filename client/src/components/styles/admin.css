@@ -1,0 +1,19 @@
+.marginrt {
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+.activegood {
+    padding: 2px 0px 2px 0px;
+    width: 100%;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+
+}
+
+.nm {
+    margin: 0px;
+}

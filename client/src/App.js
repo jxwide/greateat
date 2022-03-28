@@ -3,6 +3,7 @@ import './index.css'
 import ListOfCats from "./components/ListOfCats";
 import ListOfGoods from "./components/ListOfGoods";
 import {Route, Routes} from "react-router-dom";
+import AdminPage from "./components/AdminPage";
 
 function App() {
     return (
@@ -14,6 +15,8 @@ function App() {
 
             <Routes>
                 <Route path='/cat/:id' element={<ListOfGoods/>}/>
+
+                <Route path='/admin' element={<AdminPage/>}/>
             </Routes>
         </div>
     );

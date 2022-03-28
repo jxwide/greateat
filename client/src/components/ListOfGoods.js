@@ -8,7 +8,6 @@ const ListOfGoods = () => {
 
     return (
         <div className="listOfGoods">
-
             <Goods id={id}/>
         </div>
     );

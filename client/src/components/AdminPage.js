@@ -1,6 +1,6 @@
 import React, {useState} from 'react';
 import './styles/admin.css'
-import AllActiveGoods from "./AllActiveGoods";
+import AllActiveOrders from "./AllActiveOrders";
 
 const AdminPage = () => {
     let [catInput, setCatInput] = useState('')
@@ -78,7 +78,7 @@ const AdminPage = () => {
 
             <br/><br/>
             <h3>Активные заказы: </h3>
-            <AllActiveGoods/>
+            <AllActiveOrders/>
         </div>
     );
 };

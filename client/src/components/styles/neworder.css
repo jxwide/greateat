@@ -1,0 +1,22 @@
+.pgg {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+
+    text-align: right;
+}
+
+.br {
+    height: 3px;
+}
+
+.dataenter {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.indev {
+    opacity: 0.1;
+    background: black;
+}

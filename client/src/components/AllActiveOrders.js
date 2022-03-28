@@ -1,7 +1,7 @@
 import React, {useEffect, useState} from 'react';
-import ActiveGood from "./ActiveGood";
+import ActiveOrder from "./ActiveOrder";
 
-const AllActiveGoods = () => {
+const AllActiveOrders = () => {
     let [activegoods, sag] = useState([])
 
     useEffect(() => {
@@ -13,11 +13,10 @@ const AllActiveGoods = () => {
     return (
         <div>
             {
-                activegoods.map(el => <ActiveGood oGoodId={el.goodId} oUserId={el.clientId} oInfos={el.addressAndInfo}/>)
+                activegoods.map(el => <ActiveOrder oGoodId={el.goodId} oUserId={el.clientId} oInfos={el.addressAndInfo}/>)
             }
-
         </div>
     );
 };
 
-export default AllActiveGoods;
+export default AllActiveOrders;

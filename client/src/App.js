@@ -4,6 +4,7 @@ import ListOfCats from "./components/ListOfCats";
 import ListOfGoods from "./components/ListOfGoods";
 import {Route, Routes} from "react-router-dom";
 import AdminPage from "./components/AdminPage";
+import NewOrder from "./components/newOrder";
 
 function App() {
     return (
@@ -15,6 +16,7 @@ function App() {
 
             <Routes>
                 <Route path='/cat/:id' element={<ListOfGoods/>}/>
+                <Route path='/order/new/:id' element={<NewOrder/>}/>
 
                 <Route path='/admin' element={<AdminPage/>}/>
             </Routes>
